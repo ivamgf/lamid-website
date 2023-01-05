@@ -1,1 +1,43 @@
-<p>header works!</p>
+<nav class="navbar fixed-top" style="background-color: #1978E6;">
+  <div class="container-fluid" style="padding-top: 0.6rem; padding-bottom: 0.1rem; padding-right: 1rem;">
+    <a class="navbar-brand" href="#">
+      <img src="assets/images/logo-horizontal-white.png" alt="Logo lamid" width="81" height="29">
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasNavbar"
+      aria-controls="offcanvasNavbar"
+    >
+      <img src="assets/images/list.svg" alt="Botão menu">
+    </button>
+    <div
+      class="offcanvas offcanvas-end"
+      style="background-color: #1978E6;"
+      tabindex="-1" id="offcanvasNavbar"
+      aria-labelledby="offcanvasNavbarLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="color: #FFFFFF;">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div>
+        <hr style="color: #FFFFFF;">
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" style="color: #FFFFFF;">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #FFFFFF;">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #FFFFFF;">Contatos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
