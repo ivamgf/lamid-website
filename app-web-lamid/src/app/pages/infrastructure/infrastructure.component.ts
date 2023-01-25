@@ -10,6 +10,7 @@ export class InfrastructureComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }
