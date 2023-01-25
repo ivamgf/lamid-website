@@ -63,3 +63,27 @@
     </div>
   </div>
 </div>
+
+<div class="card card-margin">
+  <div class="card-header card-header-style">
+    Localização
+  </div>
+  <div class="card-body">
+    <div class="clearfix">
+
+      <!--The div element for the map -->
+      <div id="map"></div>
+
+      <!--
+        The `defer` attribute causes the callback to execute after the full HTML
+        document has been parsed. For non-blocking uses, avoiding race conditions,
+        and consistent behavior across browsers, consider loading using Promises
+        with https://www.npmjs.com/package/@googlemaps/js-api-loader.
+        -->
+      <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDo0WJ44VCW2P4mhJ1oy8dGrGPQst2R14s&callback=initMap&v=weekly"
+        defer
+      ></script>
+    </div>
+  </div>
+</div>
