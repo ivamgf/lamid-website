@@ -1,0 +1,70 @@
+.gallery-style{
+  width: 1300px;
+  height: 800px;
+  padding-bottom: 8rem;
+}
+
+.card-style{
+  width: 90%;
+}
+
+.card-header-style{
+  background-color: #4362AB;
+  color: #FFFFFF;
+}
+
+.caption-style{
+  background-color: #4362AB;
+  margin-left: -100%;
+  margin-right: -100%;
+}
+
+@media screen and (min-width: 1401px) {
+  .gallery-style{
+    width: 1300px;
+    height: 800px;
+    padding-bottom: 8rem;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .gallery-style{
+    width: 1200px;
+    height: 700px;
+    padding-bottom: 8rem;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .gallery-style{
+    width: 1000px;
+    height: 700px;
+    padding-bottom: 8rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .gallery-style{
+    width: 800px;
+    height: 700px;
+    padding-bottom: 8rem;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .gallery-style{
+    width: 600px;
+    height: 400px;
+    padding-bottom: 8rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .gallery-style{
+    width: 500px;
+    height: 400px;
+    padding-bottom: 8rem;
+  }
+}
+
+
