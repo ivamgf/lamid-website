@@ -1,0 +1,124 @@
+.caption-style{
+  background-color: #4362AB;
+  margin-left: -100%;
+  margin-right: -100%;
+}
+
+.logo{
+  padding-bottom: 8rem;
+}
+
+.card-margin{
+  margin-bottom: 3rem;
+}
+
+.card-style{
+  height: 250px;
+}
+
+.card-header-style{
+  background-color: #4362AB;
+  color: #FFFFFF;
+}
+
+.card-img-style-cord{
+  width: 70%;
+  height: 60%;
+  float: left;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 576px) {
+  .logo{
+    padding-bottom: 11rem;
+    width: 100%;
+  }
+  .caption-style{
+    background-color: #4362AB;
+    margin-left: -100%;
+    margin-right: -100%;
+    height: 30%;
+  }
+  .paragraph-size{
+    font-size: x-small;
+  }
+  .card-img-style{
+    width: 100%;
+    height: 100%;
+  }
+  .card-img-style-cord{
+    width: 75%;
+    height: 70%;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .logo{
+    padding-bottom: 11rem;
+    width: 100%;
+  }
+  .caption-style{
+    background-color: #4362AB;
+    margin-left: -100%;
+    margin-right: -100%;
+  }
+  .paragraph-size{
+    font-size: x-small;
+  }
+  .card-img-style-cord{
+    width: 25%;
+    height: 75%;
+    float: left;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .logo{
+    padding-bottom: 11rem;
+    width: 100%;
+  }
+  .caption-style{
+    background-color: #4362AB;
+    margin-left: -100%;
+    margin-right: -100%;
+  }
+  .paragraph-size{
+    font-size: x-small;
+  }
+  .card-img-style-cord{
+    width: 90%;
+    height: 45%;
+    float: left;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .card-img-style-cord{
+    width: 90%;
+    height: 45%;
+    float: left;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .card-img-style-cord{
+    width: 90%;
+    height: 45%;
+    float: left;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (min-width: 1401px) {}
+
