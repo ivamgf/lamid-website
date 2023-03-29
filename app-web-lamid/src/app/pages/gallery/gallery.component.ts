@@ -13,7 +13,7 @@ export class GalleryComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-
+    console.log("Galery page")
   }
 
   breadcrumbHome() {

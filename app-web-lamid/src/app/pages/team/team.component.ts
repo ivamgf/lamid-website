@@ -13,7 +13,7 @@ export class TeamComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-
+    console.log("Team page")
   }
 
   breadcrumbHome() {
