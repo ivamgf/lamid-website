@@ -99,11 +99,22 @@
 }
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
-
+  .logo{
+    padding-bottom: 11rem;
+    width: 90%;
+  }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1400px) {
-
+  .logo{
+    padding-bottom: 11rem;
+    width: 95%;
+  }
 }
 
-@media screen and (min-width: 1401px) {}
+@media screen and (min-width: 1401px) {
+  .logo{
+    padding-bottom: 11rem;
+    width: 95%;
+  }
+}

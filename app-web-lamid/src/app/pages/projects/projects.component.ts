@@ -13,7 +13,7 @@ export class ProjectsComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-
+    console.log("Projects page")
   }
 
   breadcrumbHome() {

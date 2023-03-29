@@ -10,7 +10,7 @@ export class InfrastructureComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-
+    console.log("Infraestructure page")
   }
 
 }

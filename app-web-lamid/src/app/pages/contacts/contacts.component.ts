@@ -17,6 +17,8 @@ export class ContactsComponent implements OnInit {
 
   ngOnInit(): void {
 
+    console.log("Contacts page")
+
     let loader = new Loader({
       apiKey:'AIzaSyDo0WJ44VCW2P4mhJ1oy8dGrGPQst2R14s'
     })
